@@ -1,4 +1,5 @@
 import streamlit as st
+import geopandas
 
 if 'lijst' not in st.session_state:
 	st.session_state['lijst'] = []
